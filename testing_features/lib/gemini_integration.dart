@@ -3,7 +3,7 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 
-var gemeini_api_key_value = 'AIzaSyDy0HbiyebJsmPqQ0S3Xyc_PiMNbfAbGTA';
+var gemeini_api_key_value = 'YOUR API KEY';
 
 class gemini_api {
   static Future<Map<String, String>> getheader() async {
